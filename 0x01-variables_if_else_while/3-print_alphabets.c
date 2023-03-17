@@ -9,6 +9,7 @@ int main(void)
 {
 	char lower = 'a';
 	char upper = 'A';
+
 	while (lower <= 'z') /*prints lowercases a-z*/
 	{
 		putchar(lower);
@@ -21,6 +22,6 @@ int main(void)
 		upper++;
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
