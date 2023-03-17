@@ -1,8 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - Printing all lower case alphabets
+ * main - print lowercase a-z
  * Return: 0 (Successful)
- *
  */
 
 int main(void)
@@ -15,5 +15,6 @@ int main(void)
 		alpha++;
 	}
 	putchar('\n');
+
 	return (0);
 }

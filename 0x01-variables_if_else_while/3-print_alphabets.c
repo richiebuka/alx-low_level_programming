@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Printing all alphabets lower and upper case
+ * main - print lower and upper case alphabet
  * Return: 0 (Successful)
  */
 
@@ -10,13 +10,13 @@ int main(void)
 	char lower = 'a';
 	char upper = 'A';
 
-	while (lower <= 'z') /* prints lower alphabets a-z */
+	while (lower <= 'z') /*prints lowercases a-z*/
 	{
 		putchar(lower);
 		lower++;
 	}
 
-	while (upper <= 'Z') /* prints upper alphabets A-Z */
+	while (upper <= 'Z') /*prints uppercases A-Z*/
 	{
 		putchar(upper);
 		upper++;
