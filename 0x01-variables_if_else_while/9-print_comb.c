@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - print single digit numbers seperated by commas and whitespace using putchar
+ * main - print 0-9 seperated with commas, using putchar
  * Return: 0 (Successful)
  */
 
@@ -20,5 +20,6 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
+
 	return (0);
 }
