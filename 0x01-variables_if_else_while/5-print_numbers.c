@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int num = 0;
+	int num = 0; /* creating and defining variable num */
 
 	while (num < 10)
 	{
 		printf("%i", num);
-		num++;
+		num++; /* increment of num */
 	}
 	putchar('\n');
 
