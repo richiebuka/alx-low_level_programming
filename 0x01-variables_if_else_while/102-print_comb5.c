@@ -7,30 +7,25 @@
 
 int main(void)
 {
-	int tens;
-	int ones;
-	int t;
-	int o;
+	int num1;
+	int num2;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (num1 = 0; num1 < 100; num1++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (num2 = 0; num2 < 100; num2++)
 		{
-			for (t = '0'; t <= '9'; t++)
+			if (num1 < num2)
 			{
-				for (o = '1'; o <= '9'; o++)
-				{
-					putchar(tens);
-					putchar(ones);
-					putchar(' ');
-					putchar(t);
-					putchar(o);
+				putchar('0' + num1 / 10);
+				putchar('0' + num1 % 10);
+				putchar(32);
+				putchar('0' + num2 / 10);
+				putchar('0' + num2 % 10);
 
-					if ((tens != '9' && ones != '8') && (t != '9' && o != '9'))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				if (num1 != 98 || num2 != 99)
+				{
+					putchar(44);
+					putchar(32);
 				}
 			}
 		}
