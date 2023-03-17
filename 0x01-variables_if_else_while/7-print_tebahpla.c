@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Reverse printing alphabet with putchar
  * Return: 0 (Successful)
  */

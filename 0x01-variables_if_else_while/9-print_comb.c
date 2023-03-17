@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  * main - print single digit numbers seperated by commas and whitespace using putchar
  * Return: 0 (Successful)
  */
