@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - printing all single numbers using putchar
+ * main - print 0123456789 using putchar
  * Return: 0 (Successful)
  */
 
