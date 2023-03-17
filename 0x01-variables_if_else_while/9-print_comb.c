@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - print single digit numbers seperated by commas and whitespace using putchar
  * Return: 0 (Successful)
@@ -6,17 +7,17 @@
 
 int main(void)
 {
-	int num = '0';
+	int n = '0';
 
-	while (num <= '9')
+	while (n <= '9')
 	{
-		putchar(num);
-		if (num != '9')
+		putchar(n);
+		if (n != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		num++;
+		n++;
 	}
 	putchar('\n');
 	return (0);
