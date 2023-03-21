@@ -12,10 +12,10 @@ int main(void)
 	long int a, b, c;
 	long int i;
 	int upto = 50;
+
 	a = 0;
 	b = 1;
 	c = 1;
-	
 	for (i = 1; i <= upto; i++)
 	{
 		printf("%li", c);
