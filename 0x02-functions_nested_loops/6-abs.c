@@ -2,7 +2,7 @@
 
 /**
  *_abs - compute the absolute value of an integer
- *@n: integer argument
+ *@r: integer argument
  *Return: absolute value
  */
 
