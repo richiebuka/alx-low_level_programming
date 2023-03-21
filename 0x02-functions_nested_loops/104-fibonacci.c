@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	int i =3;
+	int i = 3;
 	int large = 0;
-	unsigned long a =1, b = 2, term_1 = 0, a_2 = 0, b_2 = 0, term_2 = 0;
+	unsigned long a = 1, b = 2, term_1 = 0, a_2 = 0, b_2 = 0, term_2 = 0;
 	unsigned long cut = 10000000000000000;
 
 	printf("%lu, %lu", a, b);
