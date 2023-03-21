@@ -16,12 +16,12 @@ int main(void)
 
 	while (f2 < 4000000)
 	{
-		if (f3 % 2 == 0)
+		if (f2 % 2 == 0)
 		{
 			sum += f2;
 		}
 		temp = f1;
-		fi = f2;
+		f1 = f2;
 		f2 = temp + f2;
 	}
 	printf("%li\n", sum);
