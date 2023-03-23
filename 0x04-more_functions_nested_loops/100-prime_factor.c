@@ -19,7 +19,7 @@ int main(void)
 	}
 	for (i = 3; i <= sqrt(612852475143); i = i + 2)
 	{
-		while (number % 1 == 0)
+		while (number % i == 0)
 		{
 			max = i;
 			number = number / i;
