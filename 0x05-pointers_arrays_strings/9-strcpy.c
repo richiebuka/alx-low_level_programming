@@ -7,7 +7,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	xhar *answer = dest;
+	char *answer = dest;
 
 	while (*src)
 	{
