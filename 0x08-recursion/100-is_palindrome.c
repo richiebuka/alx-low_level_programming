@@ -10,7 +10,7 @@ int compr(char *head, char *tail)
 	if (head >= tail)
 		return (1);
 	if (*head == *tail)
-		return (compr(head + 1, tail -1));
+		return (compr(head + 1, tail - 1));
 
 	return (0);
 }
