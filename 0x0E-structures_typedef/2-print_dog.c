@@ -7,7 +7,7 @@
  * @d: A dog structure
  * Return: Nothing
  */
-void print-dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
