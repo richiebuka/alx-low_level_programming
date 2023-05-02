@@ -8,14 +8,14 @@
  */
 size_t free_listint_safe(listint_t **h)
 {
-	size_t nodeC = 0;
+	size_t len = 0;
 	listint_t *temp = NULL;
 
 	if (!(h && *h))
-		return (nodeC);
+		return (len);
 	while (*h)
 	{
-		nodeC++;
+		len++;
 		if (*h > (*h)->next)
 		{
 			temp = *h;
@@ -29,5 +29,5 @@ size_t free_listint_safe(listint_t **h)
 		}
 	}
 	*h = NULL;
-	return (nodeC);
+	return (len);
 }
