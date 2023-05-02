@@ -8,7 +8,7 @@
  */
 size_t free_listint_safe(listint_t **h)
 {
-	suze_t nodeC = 0;
+	size_t nodeC = 0;
 	listint_t *temp = NULL;
 
 	if (!(h && *h))
